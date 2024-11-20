@@ -1,0 +1,41 @@
+Script started on Mon Nov 18 09:34:53 2024
+[1m[7m%[27m[1m[0m                                                                                                                       [0m[27m[24m[Jandreylyamkin@Andreys-MacBook-Air handbook % [K[?2004hppwd[?2004l
+/Users/andreylyamkin/Documents/Education/Repositories/github/alyamkin/typescript-official-tutorial/handbook
+[1m[7m%[27m[1m[0m                                                                                                                       [0m[27m[24m[Jandreylyamkin@Andreys-MacBook-Air handbook % [K[?2004hnnpm run build[?2004l
+
+> handbook@1.0.0 build
+> tsc -w
+
+[2J[3J[H[[90m9:36:47 AM[0m] Starting compilation in watch mode...
+
+[[90m9:36:48 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:37:44 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/narrowing.ts[0m:[93m184[0m:[93m22[0m - [91merror[0m[90m TS2345: [0mArgument of type 'Triangle' is not assignable to parameter of type 'Shape'.
+  Type 'Triangle' is not assignable to type 'Square'.
+    Types of property 'kind' are incompatible.
+      Type '"triangle"' is not assignable to type '"square"'.
+
+[7m184[0m console.log(g[[90m9:37:44 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/narrowing.ts[0m:[93m184[0m:[93m22[0m - [91me[2J[3J[H[[90m9:38:05 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/narrowing.ts[0m:[93m162[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType 'Triangle' is not assignable to type 'never'.
+
+[7m162[0m       const _exhaustiveCheck: never = shape;
+[7m   [0m [91m            ~~~~~~~~~~~~~~~~[0m
+
+[[90m9:38:05 AM[0m] Found 1 error. Watching for file changes.
+
+ching for file changes.
+
+[2J[3J[H[[90m9:38:05 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/narrowing.ts[0m:[93m162[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType 'Triangle' is not assignable to type 'never'.
+
+[7m162[0m       const _exhaustiveCheck: never = shape;
+[7m   [0m [91m            ~~~~~~~~~~~~~~~~[0m
+
+[[90m9:38:05 AM[0m] Found 1 error. Watching for file changes.
+
