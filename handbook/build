@@ -28,14 +28,1217 @@ Script started on Mon Nov 18 09:34:53 2024
 
 [[90m9:38:05 AM[0m] Found 1 error. Watching for file changes.
 
-ching for file changes.
-
-[2J[3J[H[[90m9:38:05 AM[0m] File change detected. Starting incremental compilation...
+[2J[3J[H[[90m7:59:35 PM[0m] File change detected. Starting incremental compilation...
 
 [96msrc/narrowing.ts[0m:[93m162[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType 'Triangle' is not assignable to type 'never'.
 
 [7m162[0m       const _exhaustiveCheck: never = shape;
 [7m   [0m [91m            ~~~~~~~~~~~~~~~~[0m
 
-[[90m9:38:05 AM[0m] Found 1 error. Watching for file changes.
+[[90m7:59:35 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m8:01:28 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/narrowing.ts[0m:[93m162[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType 'Triangle' is not assignable to type 'never'.
+
+[7m162[0m       const _exhaustiveCheck: never = shape;
+[7m   [0m [91m            ~~~~~~~~~~~~~~~~[0m
+
+[[90m8:01:28 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m8:01:43 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/narrowing.ts[0m:[93m162[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType 'Triangle' is not assignable to type 'never'.
+
+[7m162[0m       const _exhaustiveCheck: never = shape;
+[7m   [0m [91m            ~~~~~~~~~~~~~~~~[0m
+
+[[90m8:01:43 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m8:10:41 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/narrowing.ts[0m:[93m162[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType 'Triangle' is not assignable to type 'never'.
+
+[7m162[0m       const _exhaustiveCheck: never = shape;
+[7m   [0m [91m            ~~~~~~~~~~~~~~~~[0m
+
+[[90m8:10:41 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m8:18:34 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/narrowing.ts[0m:[93m162[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType 'Triangle' is not assignable to type 'never'.
+
+[7m162[0m       const _exhaustiveCheck: never = shape;
+[7m   [0m [91m            ~~~~~~~~~~~~~~~~[0m
+
+[[90m8:18:35 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m8:27:23 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/everyday-types.ts[0m:[93m138[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m138[0m function doSomething(x: string | null) {
+[7m   [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/narrowing.ts[0m:[93m162[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType 'Triangle' is not assignable to type 'never'.
+
+[7m162[0m       const _exhaustiveCheck: never = shape;
+[7m   [0m [91m            ~~~~~~~~~~~~~~~~[0m
+
+[[90m8:27:23 PM[0m] Found 2 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:28:12 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/everyday-types.ts[0m:[93m138[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m138[0m function doSomething(x: string | null) {
+[7m   [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/narrowing.ts[0m:[93m162[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType 'Triangle' is not assignabl[2J[3J[H[[90m8:28:12 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/everyday-types.ts[0m:[93m138[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate functio[2J[3J[H[[90m8:29:52 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/everyday-types.ts[0m:[93m138[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m138[0m function doSomething(x: string | null) {
+[7m   [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/narrowing.ts[0m:[93m162[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType 'Triangle' is not assignable to type 'never'.
+
+[7m162[0m       const _exhaustiveCheck: never = shape;
+[7m   [0m [91m            ~~~~~~~~~~~~~~~~[0m
+
+[[90m8:29:52 PM[0m] Found 2 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:39:25 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/everyday-types.ts[0m:[93m138[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m138[0m function doSomething(x: string | null) {
+[7m   [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/more-on-functions.ts[0m:[93m42[0m:[93m15[0m - [91merror[0m[90m TS7009: [0m'new' expression, whose target lacks a construct signature, implicitly has an 'any' type.
+
+[7m42[0m const user1 = new User('Andrey');
+[7m  [0m [91m              ~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/narrowing.ts[0m:[93m162[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType 'Triangle' is not assignable to type 'never'.
+
+[7m162[0m       const _exhaustiveCheck: never = shape;
+[7m   [0m [91m            ~~~~~~~~~~~~~~~~[0m
+
+[[90m8:39:25 PM[0m] Found 3 errors. Watching for file changes.
+
+^C
+[1m[7m%[27m[1m[0m                                                                                                                       [0m[27m[24m[Jandreylyamkin@Andreys-MacBook-Air handbook % [K[?2004hnpm run build[?2004l
+
+> handbook@1.0.0 build
+> tsc -w
+
+[2J[3J[H[[90m8:40:08 PM[0m] Starting compilation in watch mode...
+
+[96msrc/everyday-types.ts[0m:[93m138[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m138[0m function doSomething(x: string | null) {
+[7m   [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/more-on-functions.ts[0m:[93m24[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m24[2J[3J[H[[90m8:40:08 PM[0m] Starting compilation in watch mode...
+
+[96msrc/everyday-types.ts[0m:[93m138[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m138[0m function doSomething(x: string | null) {
+[7m   [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/more-on-functions.ts[0m:[93m24[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m24[0m function doSomething(fn: DescribableFunction) {
+[7m  [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/more-on-functions.ts[0m:[93m42[0m:[93m15[0m - [91merror[0m[90m TS7009: [0m'new' expression, whose target lacks a construct signature, implicitly has [2J[3J[H[[90m8:41:04 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/everyday-types.ts[0m:[93m138[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m138[0m function doSomething(x: string | null) {
+[7m   [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/more-on-functions.ts[0m:[93m24[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m24[0m function doSomething(fn: DescribableFunction) {
+[7m  [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/more-on-functions.ts[0m:[93m42[0m:[93m15[0m - [91merror[0m[90m TS7009: [0m'new' expression, whose target lacks a construct signature, implicitly has an 'any' type.
+
+[7m42[0m const user1 = new User('Andrey');
+[7m  [0m [91m              ~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/narrowing.ts[0m:[93m162[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType 'Triangle' is not assignable to type 'never'.
+
+[7m162[0m       const _exhaustiveCheck: never = shape;
+[7m   [0m [91m            ~~~~~~~~~~~~~~~~[0m
+
+[[90m8:41:04 PM[0m] Found 4 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:41:30 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/everyday-types.ts[0m:[93m138[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m138[0m function doSomething(x: string | null) {
+[7m   [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/more-on-functions.ts[0m:[93m24[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m24[0m function doSomething(fn: DescribableFunction) {
+[7m  [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/more-on-functions.ts[0m:[93m42[0m:[93m15[0m - [91merror[0m[90m TS7009: [0m'new' expression, whose target lacks a construct signature, implicitly has an 'any' type.
+
+[7m42[0m const user1 = new User('Andrey');
+[7m  [0m [91m              ~~~~~~~~~~~~~~~~~~[0m
+
+[[90m8:41:30 PM[0m] Found 3 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:47:42 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/everyday-types.ts[0m:[93m138[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m138[0m function doSomething(x: string | null) {
+[7m   [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/more-on-functions.ts[0m:[93m39[0m:[93m3[0m - [91merror[0m[90m TS2683: [0m'this' implicitly has type[2J[3J[H[[90m8:47:42 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/everyday-types.ts[0m:[93m138[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m138[0m function doSomething(x: string | null) {
+[7m   [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/more-on-functions.ts[0m:[93m39[0m:[93m3[0m - [91merror[0m[90m TS2683: [0m'this' implicitly has type 'any' because it does not have a type annotation.
+
+[7m39[0m   this.name = name;
+[7m  [0m [91m  ~~~~[0m
+
+[96msrc/more-on-functions.ts[0m:[93m40[0m:[93m3[0m - [91merror[0m[90m TS2683: [0m'this' implicitly has type 'any' because it does not have a typ[2J[3J[H[[90m9:10:58 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/everyday-types.ts[0m:[93m138[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m138[0m function doSomething(x: string | null) {
+[7m   [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/more-on-functions.ts[0m:[93m48[0m:[93m15[0m - [91merror[0m[90m TS7009: [0m'new' expression, whose t[2J[3J[H[[90m9:10:58 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/everyday-types.ts[0m:[93m138[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m138[0m func[2J[3J[H[[90m9:17:18 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/everyday-types.ts[0m:[93m138[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m138[0m function doSomething(x: string | null) {
+[7m   [0m [91m         ~~~~~~~~~~~[0m
+
+[[90m9:17:18 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m9:17:45 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/everyday-types.ts[0m:[93m138[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m138[0m function doSomething(x: string | null) {
+[7m   [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/more-on-functions.ts[0m:[93m56[0m:[93m16[0m - [91merror[0m[90m TS2345: [0mArgument of type '(name: string) => User' is not assignable to parameter of type 'SomeConstructor'.
+  Type '(name: string) => User' provides no match for the signature 'new (name: string): User'.
+
+[7m56[0m console.log(fn(User));
+[7m  [0m [91m               ~~~~[0m
+
+[[90m9:17:45 PM[0m] Found 2 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:44:37 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/everyday-types.ts[0m:[93m138[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m138[0m function doSomething(x: string | null) {
+[7m   [0m [91m         ~~~~~~~~~~~[0m
+
+[[90m9:44:37 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m9:57:18 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/everyday-types.ts[0m:[93m138[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m138[0m function doSomething(x: string | null) {
+[7m   [0m [91m         ~~~~~~~~~~~[0m
+
+[[90m9:57:18 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m9:58:15 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m75[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m'=' expected.
+
+[7m75[0m type PersonConstructor
+[7m  [0m [91m                      [0m
+
+[[90m9:58:15 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m10:05:52 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/everyday-types.ts[0m:[93m138[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m138[0m function doSomething(x: string | null) {
+[7m   [0m [91m         ~~~~~~~~~~~[0m
+
+[[90m10:05:52 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m8:22:03 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/everyday-types.ts[0m:[93m138[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m138[0m function doSomething(x: string | null) {
+[7m   [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/more-on-functions.ts[0m:[93m79[0m:[93m7[0m - [91merror[0m[90m TS2420: [0mClass 'PersonImpl' incorre[2J[3J[H[[90m8:22:03 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/everyday-types.ts[0m:[93m138[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m138[0m function doSomething(x: string | null) {
+[7m   [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/more-on-functions.ts[0m:[93m79[0m:[93m7[0m - [91merror[0m[90m TS2420: [0mClass 'PersonImpl' incorrectly implements interface 'Person'.
+  Type 'PersonImpl' is missing the following properties from type 'Person': name, age
+
+[7m79[0m class PersonImpl implements Person {
+[7m  [0m [91m      ~~~~~~~~~~[0m
+
+[96msrc/more-on-functions.ts[0m:[93m91[0m:[93m29[0m - [91merror[0m[90m TS2345: [0mArgument of type 'typeof PersonImpl' is not assignable to parameter of type 'PersonConstructor'.
+  Types of construct signatures [2J[3J[H[[90m8:41:42 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/everyday-types.ts[0m:[93m138[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m138[0m function doSomething(x: string | null) {
+[7m   [0m [91m         ~~~~~~~~~~~[0m
+
+[[90m8:41:42 AM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m8:53:22 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/everyday-types.ts[0m:[93m138[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m138[0m function doSomething(x: string | null) {
+[7m   [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/more-on-functions.ts[0m:[93m91[0m:[93m6[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'Shap[2J[3J[H[[90m8:53:22 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/everyday-types.ts[0m:[93m138[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m138[0m function doSomething(x: string | null) {
+[7m   [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/more-on-functions.ts[0m:[93m91[0m:[93m6[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'Shape'.
+
+[7m91[0m type Shape = {
+[7m  [0m [91m     ~~~~~[0m
+
+  [96msrc/narrowing.ts[0m:[93m138[0m:[93m6[0m
+    [7m138[0m type Shape = Circle | Square;
+    [7m   [0m [96m     ~~~~~[0m
+    'Shape' was also declared here.
+
+[96msrc/narrowing.ts[0m:[93m138[0m:[93m6[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'Shape'.
+
+[7m138[0m type Shape = Circle | Square;
+[7m   [0m [91m     ~~~~~[0m
+
+  [96msrc/more-on-functions.ts[0m:[93m91[0m:[93m6[0m
+    [7m91[0m type Shape = {
+    [7m  [0m [96m     ~~~~~[0m
+    'Shape' was also declared here.
+
+[96msrc/narrowing.ts[0m:[93m141[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'kind' does not exist on type 'Shape'.
+
+[7m141[0m   if (shape.kind === 'circle') {
+[7m   [0m [91m            ~~~~[0m
+
+[96msrc/narrowing.ts[0m:[93m146[0m:[93m17[0m - [91merror[0m[90m TS2339: [0mProperty 'kind' does not exist on type 'Shape'.
+
+[7m146[0m   switch (shape.kind) {
+[7m   [0m [91m                ~~~~[0m
+
+[96msrc/narrowing.ts[0m:[93m148[0m:[93m30[0m - [91merror[0m[90m TS2339: [0mProperty 'radius' does not exist on type 'Shape'.
+
+[7m148[0m       return Math.PI * shape.radius ** 2;
+[7m   [0m [91m                             ~~~~~~[0m
+
+[96msrc/narrowing.ts[0m:[93m150[0m:[93m20[0m - [91merror[0m[90m TS2339: [0mProperty 'sideLength' does not exist on type 'Shape'.
+
+[7m150[0m       return shape.sideLength ** 2;
+[7m   [0m [91m                   ~~~~~~~~~~[0m
+
+[96msrc/narrowing.ts[0m:[93m156[0m:[93m17[0m - [91merror[0m[90m TS2339: [0mProperty 'kind' does not exist on type 'Shape'.
+
+[7m156[0m   switch (shape.kind) {
+[7m   [0m [91m                ~~~~[0m
+
+[96msrc/narrowing.ts[0m:[93m158[0m:[93m30[0m - [91merror[0m[90m TS2339: [0mProperty 'radius' does not exist on type 'Shape'.
+
+[7m158[0m       return Math.PI * shape.radius ** 2;
+[7m   [0m [91m                             ~~~~~~[0m
+
+[96msrc/narrowing.ts[0m:[93m160[0m:[93m20[0m - [91merror[0m[90m TS2339: [0mProperty 'sideLength' does not exist on type 'Shape'.
+
+[7m160[0m       return shape.sideLength ** 2;
+[7m   [0m [91m                   ~~~~~~~~~~[0m
+
+[96msrc/narrowing.ts[0m:[93m162[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType 'Shape' is not assignable to type 'never'.
+
+[7m162[0m       const _exhaustiveCheck: never = shape;
+[7m   [0m [91m            ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/narrowing.ts[0m:[93m182[0m:[93m22[0m - [91merror[0m[90m TS2345: [0mArgument of type 'Circle' is not assignable to parameter of type 'Shape'.
+  Property 'area' is missing in type 'Circle' but required in type 'Shape'.
+
+[7m182[0m console.log(getArea2(circle));
+[7m   [0m [91m                     ~~~~~~[0m
+
+  [96msrc/more-on-functions.ts[0m:[93m92[0m:[93m3[0m
+    [7m92[0m   area(): number;
+    [7m  [0m [96m  ~~~~~~~~~~~~~~~[0m
+    'area' is declared here.
+
+[96msrc/narrowing.ts[0m:[93m183[0m:[93m22[0m - [91merror[0m[90m TS2345: [0mArgument of type 'Square' is not assignable to par[2J[3J[H[[90m9:08:30 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/everyday-types.ts[0m:[93m138[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m138[0m function doSomething(x: string | null) {
+[7m   [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/more-on-functions.ts[0m:[93m24[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implem[2J[3J[H[[90m9:08:30 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/everyday-types.ts[0m:[93m138[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m138[0m function doSomething(x: string | null) {
+[7m   [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/more-on-functions.ts[0m:[93m24[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m24[0m function doSomething(fn: DescribableFunction) {
+[7m  [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/more-on-functions.ts[0m:[93m91[0m:[93m6[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'Shape'.
+
+[7m91[0m type Shape = {
+[7m  [0m [91m     ~~~~~[0m
+
+  [96msrc/narrowing.ts[0m:[93m138[0m:[93m6[0m
+    [7m138[0m type Shape = Circle | Square;
+    [7m   [0m [96m     ~~~~~[0m
+    'Shape' was also declared here.
+
+[96msrc/narrowing.ts[0m:[93m138[0m:[93m6[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'Shape'.
+
+[7m138[0m type Shape = Circle | Square;
+[7m   [0m [91m     ~~~~~[0m
+
+  [96msrc/more-on-functions.ts[0m:[93m91[0m:[93m6[0m
+    [7m91[0m type Shape = {
+    [7m  [0m [96m     ~~~~~[0m
+    'Shape' was also declared here.
+
+[96msrc/narrowing.ts[0m:[93m141[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'kind' does not exist on type 'Shape'.
+
+[7m141[0m   if (shape.kind === 'circle') {
+[7m   [0m [91m            ~~~~[0m
+
+[96msrc/narrowing.ts[0m:[93m146[0m:[93m17[0m - [91merror[0m[90m TS2339: [0mProperty 'kind' does not exist on type 'Shape'.
+
+[7m146[0m   switch (shape.kind) {
+[7m   [0m [91m                ~~~~[0m
+
+[96msrc/narrowing.ts[0m:[93m148[0m:[93m30[0m - [91merror[0m[90m TS2339: [0mProperty 'radius' does not exist on type 'Shape'.
+
+[7m148[0m       return Math.PI * shape.radius ** 2;
+[7m   [0m [91m                             ~~~~~~[0m
+
+[96msrc/narrowing.ts[0m:[93m150[0m:[93m20[0m - [91merror[0m[90m TS2339: [0mProperty 'sideLength' does not exist on type 'Shape'.
+
+[7m150[0m       return shape.sideLength ** 2;
+[7m   [0m [91m                   ~~~~~~~~~~[0m
+
+[96msrc/narrowing.ts[0m:[93m156[0m:[93m17[0m - [91merror[0m[90m TS2339: [0mProperty 'kind' does not exist on type 'Shape'.
+
+[7m156[0m   switch (shape.kind) {
+[7m   [0m [91m                ~~~~[0m
+
+[96msrc/narrowing.ts[0m:[93m158[0m:[93m30[0m - [91merror[0m[90m TS2339: [0mProperty 'radius' does not exist on type 'Shape'.
+
+[7m158[0m       return Math.PI * shape.radius ** 2;
+[7m   [0m [91m                             ~~~~~~[0m
+
+[96msrc/narrowing.ts[0m:[93m160[0m:[93m20[0m - [91merror[0m[90m TS2339: [0mProperty 'sideLength' does not exist on type 'Shape'.
+
+[7m160[0m       return shape.sideLength ** 2;
+[7m   [0m [91m                   ~~~~~~~~~~[0m
+
+[96msrc/narrowing.ts[0m:[93m162[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType 'Shape' is not assignable to type 'never'.
+
+[7m162[0m       const _exhaustiveCheck: never = shape;
+[7m   [0m [91m            ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/narrowing.ts[0m:[93m182[0m:[93m22[0m - [91merror[0m[90m TS2345: [0mArgument of type 'Circle' is not assignable to parameter of type 'Shape'.
+  Property 'area' is missing in type 'Circle' but required in type 'Shape'.
+
+[7m182[0m console.log(getArea2(circle));
+[7m   [0m [91m                     ~~~~~~[0m
+
+  [96msrc/more-on-functions.ts[0m:[93m92[0m:[93m3[0m
+    [7m92[0m   area(): number;
+    [7m  [0m [96m  ~~~~~~~~~~~~~~~[0m
+    'arrea(): number;
+    [7m  [0m [96m  ~~~~~~~~~~~~~~~[0m
+    'area' is declared here.
+
+[[90m9:08:30 AM[0m] Found 14 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:08:39 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m24[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m24[0m function doSomething(fn: DescribableFunctiorea(): number;
+    [7m  [0m [96m  ~~~~~~~~~~~~~~~[0m
+    'area' is declared here.
+
+[[90m9:08:30 AM[0m] Found 14 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:08:39 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m24[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m24[0m function doSomething(fn: DescribableFunction) {
+[7m  [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/more-on-functions.ts[0m:[93m91[0m:[93m6[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'Shape'.
+
+[7m91[0m type Shape = {
+[7m  [0m [91m     ~~~~~[0m
+
+  [96msrc/narrowing.ts[0m:[93m138[0m:[93m6[0m
+    [7m138[0m type Shape = Circle | Square;
+    [7m   [0m [96m     ~~~~~[0m
+    'Shape' was also declared here.
+
+[96msrc/narrowing.ts[0m:[93m138[0m:[93m6[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'Shape'.
+
+[7m138[0m type Shape = Circle | Square;
+[7m   [0m [91m     ~~~~~[0m
+
+  [96msrc/more-on-functions.ts[0m:[93m91[0m:[93m6[0m
+    [7m91[0m type Shape = {
+    [7m  [0m [96m     ~~~~~[0m
+    'Shape' was also declared here.
+
+[96msrc/narrowing.ts[0m:[93m141[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'kind' does not exist on type 'Shape'.
+
+[7m141[0m   if (shape.kind === 'circle') {
+[7m   [0m [91m            ~~~~[0m
+
+[96msrc/narrowing.ts[0m:[93m146[0m:[93m17[0m - [91merror[0m[90m TS2339: [0mProperty 'kind' does not exist on type 'Shape'.
+
+[7m146[0m   switch (shape.kind) {
+[7m   [0m [91m                ~~~~[0m
+
+[96msrc/narrowing.ts[0m:[93m148[0m:[93m30[0m - [91merror[0m[90m TS2339: [0mProperty 'radius' does not exist on type 'Shape'.
+
+[7m148[0m       return Math.PI * shape.radius ** 2;
+[7m   [0m [91m                             ~~~~~~[0m
+
+[96msrc/narrowing.ts[0m:[93m150[0m:[93m20[0m - [91merror[0m[90m TS2339: [0mProperty 'sideLength' does not exist on type 'Shape'.
+
+[7m150[0m       return shape.sideLength ** 2;
+[7m   [0m [91m                   ~~~~~~~~~~[0m
+
+[96msrc/narrowing.ts[0m:[93m156[0m:[93m17[0m - [91merror[0m[90m TS2339: [0mProperty 'kind' does not exist on type 'Shape'.
+
+[7m156[0m   switch (shape.kind) {
+[7m   [0m [91m                ~~~~[0m
+
+[96msrc/narrowing.ts[0m:[93m158[0m:[93m30[0m - [91merror[0m[90m TS2339: [0mProperty 'radius' does not exist on type 'Shape'.
+
+[7m158[0m       return Math.PI * shape.radius ** 2;
+[7m   [0m [91m                             ~~~~~~[0m
+
+[96msrc/narrowing.ts[0m:[93m160[0m:[93m20[0m - [91merror[0m[90m TS2339: [0mProperty 'sideLength' does not exist on type 'Shape'.
+
+[7m160[0m       return shape.sideLength ** 2;
+[7m   [0m [91m                   ~~~~~~~~~~[0m
+
+[96msrc/narrowing.ts[0m:[93m162[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType 'Shape' is not assignable to type 'never'.
+
+[7m162[0m       const _exhaustiveCheck: never = shape;
+[7m   [0m [91m            ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/narrowing.ts[0m:[93m182[0m:[93m22[0m - [91merror[0m[90m TS2345: [0mArgument of type 'Circle' is not assignable to parameter of type 'Shape'.
+  Property 'area' is missing in type 'Circle' but required in type 'Shape'.
+
+[7m182[0m console.log(getArea2(circle));
+[7m   [0m [91m                     ~~~~~~[0m
+
+  [96msrc/more-on-functions.ts[0m:[93m92[0m:[93m3[0m
+    [7m92[0m   area(): number;
+    [7m  [0m [96m  ~~~~~~~~~~~~~~~[0m
+    'area' is declared here.
+
+[96msrc/narrowing.ts[0m:[93m183[0m:[9a' is declared here.
+
+[96mtemp/everyday-types.ts[0m:[93m138[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m138[0m function doSomething(x: string | null) {
+[7m   [0m [91m         ~~~~~~~~~~~[0m
+
+[[90m9:08:39 AM[0m] Found 14 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:08:43 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functia' is declared here.
+
+[96mtemp/everyday-types.ts[0m:[93m138[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m138[0m function doSomething(x: string | null) {
+[7m   [0m [91m         ~~~~~~~~~~~[0m
+
+[[90m9:08:39 AM[0m] Found 14 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:08:43 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m24[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m24[0m function doSomething(fn: DescribableFunction) {
+[7m  [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/more-on-functions.ts[0m:[93m91[0m:[93m6[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'Shape'.
+
+[7m91[0m type Shape = {
+[7m  [0m [91m     ~~~~~[0m
+
+  [96mtemp/narrowing.ts[0m:[93m138[0m:[93m6[0m
+    [7m138[0m type Shape = Circle | Square;
+    [7m   [0m [96m     ~~~~~[0m
+    'Shape' was also declared here.
+
+[96mtemp/everyday-types.ts[0m:[93m138[0m:[93m10[0m - [91merror[0m[90m TS2393: [0mDuplicate function implementation.
+
+[7m138[0m function doSomething(x: string | null) {
+[7m   [0m [91m         ~~~~~~~~~~~[0m
+
+[96mtemp/narrowing.ts[0m:[93m138[0m:[93m6[0m - [91merror[0m[90m TS2300: [0mDuplicate identifier 'Shape'.
+
+[7m138[0m type Shape = Circle | Square;
+[7m   [0m [91m     ~~~~~[0m
+
+  [96msrc/more-on-functions.ts[0m:[93m91[0m:[93m6[0m
+    [7m91[0m type Shape = {
+    [7m  [0m [96m     ~~~~~[0m
+    'Shape' was also declared here.
+
+[96mtemp/narrowing.ts[0m:[93m141[0m:[93m13[0m - [91merror[0m[90m TS2339: [0mProperty 'kind' does not exist on type 'Shape'.
+
+[7m141[0m   if (shape.kind === 'circle') {
+[7m   [0m [91m            ~~~~[0m
+
+[96mtemp/narrowing.ts[0m:[93m146[0m:[93m17[0m - [91merror[0m[90m TS2339: [0mProperty 'kind' does not exist on type 'Shape'.
+
+[7m146[0m   switch (shape.kind) {
+[7m   [0m [91m                ~~~~[0m
+
+[96mtemp/narrowing.ts[0m:[93m148[0m:[93m30[0m - [91merror[0m[90m TS2339: [0mProperty 'radius' does not exist on type 'Shape'.
+
+[7m148[0m       return Math.PI * shape.radius ** 2;
+[7m   [0m [91m                             ~~~~~~[0m
+
+[96mtemp/narrowing.ts[0m:[93m150[0m:[93m20[0m - [91merror[0m[90m TS2339: [0mProperty 'sideLength' does not exist on type 'Shape'.
+
+[7m150[0m       return shape.sideLength ** 2;
+[7m   [0m [91m                   ~~~~~~~~~~[0m
+
+[96mtemp/narrowing.ts[0m:[93m156[0m:[93m17[0m - [91merror[0m[90m TS2339: [0mProperty 'kind' does not exist on type 'Shape'.
+
+[7m156[0m   switch (shape.kind) {
+[7m   [0m [91m                ~~~~[0m
+
+[96mtemp/narrowing.ts[0m:[93m158[0m:[93m30[0m - [91merror[0m[90m TS2339: [0mProperty 'radius' does not exist on type 'Shape'.
+
+[7m158[0m       return Math.PI * shape.radius ** 2;
+[7m   [0m [91m                             ~~~~~~[0m
+
+[96mtemp/narrowing.ts[0m:[93m160[0m:[93m20[0m - [91merror[0m[90m TS2339: [0mProperty 'sideLength' does not exist on type 'Shape'.
+
+[7m160[0m       return shape.sideLength ** 2;
+[7m   [0m [91m                   ~~~~~~~~~~[0m
+
+[96mtemp/narrowing.ts[0m:[93m162[0m:[93m13[0m - [91merror[0m[90m TS2322: [0mType 'Shape' is not assignable to type 'never'.
+
+[7m162[0m       const _exhaustiveCheck: never = shape;
+[7m   [0m [91m            ~~~~~~~~~~~~~~~~[0m
+
+[96mtemp/narrowing.ts[0m:[93m182[0m:[93m22[0m - [91merror[0m[90m TS2345: [0mArgument of type 'Circle' is not assignable to parameter of t: [0mArgument of type 'Square' is not assignable to parameter of type 'Shape'.
+  Property 'area' is missing in type 'Square' but required in type 'Shape'.
+
+[7m183[0m console.log(getArea2(square));
+[7m   [0m [91m                     ~~~~~~[0m
+
+  [96msrc/more-on-functions.ts[0m:[93m92[0m:[93m3[0m
+    [7m92[0m   area(): number;
+    [7m  [0m [96m  ~~~~~~~~~~~~~~~[0m
+    'area' is declared here.
+
+[[90m9:08:43 AM[0m] Found 14 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:10:21 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:10:21 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:26:04 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m114[0m:[93m19[0m - [91merror[0m[90m TS2556: [0mA spread argument must either have a tuple type or be passed to a rest parameter.
+
+[7m114[0m   return new ctor(...params);
+[7m   [0m [91m                  ~~~~~~~~~[0m
+
+[[90m9:26:04 AM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m9:26:49 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m114[0m:[93m19[0m - [91merror[0m[90m TS2556: [0mA spread argument must either have a tuple type or be passed to a rest parameter.
+
+[7m114[0m   return new ctor(...params);
+[7m   [0m [91m                  ~~~~~~~~~[0m
+
+[[90m9:26:49 AM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m9:28:21 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m112[0m:[93m19[0m - [91merror[0m[90m TS2556: [0mA spread argument must either have a tuple type or be passed to a rest parameter.
+
+[7m112[0m   return new ctor(...params);
+[7m   [0m [91m                  ~~~~~~~~~[0m
+
+[[90m9:28:21 AM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m9:28:41 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m114[0m:[93m19[0m - [91merror[0m[90m TS2556: [0mA spread argument must either have a tuple type or be passed to a rest parameter.
+
+[7m114[0m   return new ctor(...params);
+[7m   [0m [91m                  ~~~~~~~~~[0m
+
+[[90m9:28:41 AM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m9:36:05 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:36:05 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m7:47:17 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m96[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m96[0m   new (...number[]): Shape;
+[7m  [0m [91m                ~[0m
+
+[[90m7:47:17 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m7:52:20 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:52:20 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m7:54:55 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:54:55 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:02:01 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:02:02 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:04:50 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:04:50 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:08:17 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:08:17 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:26:25 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:26:25 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:26:37 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:26:37 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:29:33 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:29:33 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:38:22 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:38:22 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:53:16 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:53:17 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m7:45:45 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:45:45 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m7:45:52 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:45:52 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m7:46:11 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:46:11 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m7:48:16 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:48:16 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m7:51:00 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m168[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType '{ length: number; }' is not assignable to type 'Type'.
+  '{ length: number; }' is assignable to the constraint of type 'Type', but 'Type' could be instantiated with a different subtype of constraint '{ length: number; }'.
+
+[7m168[0m     retu[2J[3J[H[[90m7:51:00 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m[2J[3J[H[[90m7:58:58 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:58:58 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m7:59:16 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:59:16 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m7:59:29 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:59:29 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:01:54 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m168[0m:[93m5[0m - [91merror[0m[90m TS2322: [0mType '{ length: number; }' is not assignable to type 'Partial<Type>'.
+
+[7m168[0m     return { length: minimum };
+[7m   [0m [91m    ~~~~~~[0m
+
+[[90m8:01:54 AM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m8:04:59 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:04:59 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:10:36 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m176[0m:[93m52[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m176[0m function combine<Type>(arr1: Type[], arr2: Type[]):
+[7m   [0m [91m                                                   [0m
+
+[[90m8:10:36 AM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m8:11:59 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:11:59 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:12:14 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:12:14 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:12:54 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:12:54 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:14:14 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:14:14 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:18:13 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:18:13 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:20:54 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:20:54 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:21:17 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:21:17 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:23:01 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:23:01 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:23:32 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:23:32 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:31:31 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:31:31 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:35:21 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:35:21 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:36:24 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:36:24 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:44:13 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:44:13 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:50:52 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:50:52 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:56:56 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:56:56 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:58:46 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:58:46 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:00:07 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:00:07 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:06:28 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:06:28 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:06:44 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:06:45 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:18:48 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:18:48 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:23:26 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:23:26 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:26:54 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:26:54 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:27:52 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:27:53 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:31:27 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:31:27 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:31:53 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:31:54 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:32:18 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:32:18 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:37:28 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:37:28 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:43:25 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:43:25 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:44:00 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:44:00 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:44:28 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:44:28 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:44:37 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:44:37 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:47:11 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:47:11 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:48:03 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:48:03 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:52:10 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:52:11 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:07:24 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:07:25 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:07:41 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:07:41 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:08:20 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:08:20 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:09:05 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:09:05 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:09:19 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m257[0m:[93m13[0m - [91merror[0m[90m TS2575: [0mNo overload expects 2 arguments, but overloads do exist that expect either 1 or 3 arguments.
+
+[7m257[0m console.log(makeDate(1, 2));
+[7m   [0m [91m            ~~~~~~~~[0m
+
+[[90m9:09:19 AM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m9:41:28 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:41:28 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:41:42 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m274[0m:[93m4[0m - [91merror[0m[90m TS2554: [0mExpected 0 arguments, but got 1.
+
+[7m274[0m fn('1');
+[7m   [0m [91m   ~~~[0m
+
+[[90m9:41:42 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m9:43:21 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m271[0m:[93m15[0m - [91merror[0m[90m TS2304: [0mCannot find name 'x'.
+
+[7m271[0m   console.log(x);
+[7m   [0m [91m              ~[0m
+
+[96msrc/more-on-functions.ts[0m:[93m274[0m:[93m1[0m - [91merror[0m[90m TS2554: [0mExpected 1 arguments, but got 0.
+
+[7m274[0m fn();
+[7m   [2J[3J[H[[90m9:43:21 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m271[0m:[93m15[0m - [91merror[0m[90m TS2304: [0mCannot find name 'x'.
+
+[7m271[0m   console.log(x);
+[7m   [0m [91m              ~[0m
+
+[96ms[2J[3J[H[[90m9:45:35 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:45:35 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:46:48 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:46:48 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:50:47 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m282[0m:[93m10[0m - [91merror[0m[90m TS2394: [0mThis overload signature is not compatible with its implementation signature.
+
+[7m282[0m function fn2(x: number): boolean;
+[7m   [0m [91m         ~~~[0m
+
+  [96msrc/more-on-functions.ts[0m:[93m283[0m:[93m10[0m
+    [7m283[0m function [2J[3J[H[[90m9:50:47 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m282[0m:[93m10[0m - [91merror[0m[90m TS2394: [0m[2J[3J[H[[90m9:52:02 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:52:02 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:55:17 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m281[0m:[93m10[0m - [91merror[0m[90m TS2394: [0mThis overload signature is not compatible with its implementation signature.
+
+[7m281[0m function fn2(x: string): string;
+[7m   [0m [91m         ~~~[0m
+
+  [96msrc/more-on-functions.ts[0m:[93m283[0m:[93m10[0m
+    [7m283[0m function f[2J[3J[H[[90m9:55:17 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m281[0m:[93m10[0m - [91merror[0m[90m TS2394: [0[2J[3J[H[[90m7:41:05 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m281[0m:[93m10[0m - [91merror[0m[90m TS2394: [0mThis overload signature is not compatible with its implementation signature.
+
+[7m281[0m function fn2(x: string): string;
+[7m   [0m [91m         ~~~[0m
+
+  [96msrc/more-on-functions.ts[0m:[93m283[0m:[93m10[0m
+    [7m283[0m function fn2(x: string | number) {
+    [7m   [0m [96m         ~~~[0m
+    The implementation signature is declared here.
+
+[96msrc/more-on-functions.ts[0m:[93m300[0m:[93m17[0m - [91merror[0m[90m TS2769: [0mNo overload matches this call.
+  Overload 1 of 2, '(s: string): number', gave the following error.
+    Argument of type '"Andrey" | number[]' is not assignable to parameter of type 'string'.
+      Type 'number[]' is not assignable to type 'string'.
+  Overload 2 of 2, '(arr: any[]): number', gave the following error.
+    Argument of type '"Andrey" | number[]' is not assignable to parameter of type 'any[]'.
+      Type 'string' is not assignable to type 'any[]'.
+
+[7m300[0m console.log(len(Math.random() > 0.5 ? 'Andrey' : [1, 2, 3]));
+[7m   [0m [91m                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+  [96msrc/more-on-functions.ts[0m:[93m294[0m:[93m10[0m
+    [7m294[0m function len(x: any) {
+    [7m   [0m [96m         ~~~[0m
+    The call would have succeeded against this implementation, but implementation signatures of overloads are not externally visible.
+
+[[90m7:41:05 AM[0m] Found 2 errors. Watching for file changes.
+
+[2J[3J[H[[90m7:50:01 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m281[0m:[93m10[0m - [91merror[0m[90m TS2394: [0mThis overload signature is not compatible with its implementation signature.
+
+[7m281[0m function fn2(x: string): string;
+[7m   [0m [91m         ~~~[0m
+
+  [96msrc/more-on-functions.ts[0m:[93m283[0m:[93m10[0m
+    [7m283[0m function fn2(x: string | number) {
+    [7m   [0m [96m         ~~~[0m
+    The implementation signature is declared here.
+
+[[90m7:50:01 AM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m7:56:28 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m281[0m:[93m10[0m - [91merror[0m[90m TS2394: [0mThis overload signature is not compatible with its implementation signature.
+
+[7m281[0m function fn2(x: string): string;
+[7m   [0m [91m         ~~~[0m
+
+  [96msrc/more-on-functions.ts[0m:[93m283[0m:[93m10[0m
+    [7m283[0m function f[2J[3J[H[[90m7:56:28 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m281[0m:[93m10[0m - [91merror[0m[90m TS2394: [0[2J[3J[H[[90m8:00:11 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m281[0m:[93m10[0m - [91merror[0m[90m TS2394: [0mThis overload signature is not compatible with its implementation signature.
+
+[7m281[0m function fn2(x: string): string;
+[7m   [0m [91m         ~~~[0m
+
+  [96msrc/more-on-functions.ts[0m:[93m283[0m:[93m10[0m
+    [7m283[0m function fn2(x: string | number) {
+    [7m   [0m [96m         ~~~[0m
+    The implementation signature is declared here.
+
+[[90m8:00:11 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m8:08:10 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m281[0m:[93m10[0m - [91merror[0m[90m TS2394: [0mThis overload signature is not compatible with its implementation signature.
+
+[7m281[0m function fn2(x: string): string;
+[7m   [0m [91m         ~~~[0m
+
+  [96msrc/more-on-functions.ts[0m:[93m283[0m:[93m10[0m
+    [7m283[0m function fn2(x: string | number) {
+    [7m   [0m [96m         ~~~[0m
+    The implementation signature is declared here.
+
+[[90m8:08:10 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m8:08:21 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m281[0m:[93m10[0m - [91merror[0m[90m TS2394: [0mThis overload signature is not compatible with its implementation signature.
+
+[7m281[0m function fn2(x: string): string;
+[7m   [0m [91m         ~~~[0m
+
+  [96msrc/more-on-functions.ts[0m:[93m283[0m:[93m10[0m
+    [7m283[0m function fn2(x: string | number) {
+    [7m   [0m [96m         ~~~[0m
+    The implementation signature is declared here.
+
+[[90m8:08:21 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m8:08:42 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m281[0m:[93m10[0m - [91merror[0m[90m TS2394: [0mThis overload signature is not compatible with its implementation signature.
+
+[7m281[0m function fn2(x: string): string;
+[7m   [0m [91m         ~~~[0m
+
+  [96msrc/more-on-functions.ts[0m:[93m283[0m:[93m10[0m
+    [7m283[0m function fn2(x: string | number) {
+    [7m   [0m [96m         ~~~[0m
+    The implementation signature is declared here.
+
+[[90m8:08:42 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m8:18:09 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m281[0m:[93m10[0m - [91merror[0m[90m TS2394: [0mThis overload signature is not compatible with its implementation signature.
+
+[7m281[0m function fn2(x: string): string;
+[7m   [0m [91m         ~~~[0m
+
+  [96msrc/more-on-functions.ts[0m:[93m283[0m:[93m10[0m
+    [7m283[0m function fn2(x: string | number) {
+    [7m   [0m [96m         ~~~[0m
+    The implementation signature is declared here.
+
+[[90m8:18:09 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m8:28:19 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/more-on-functions.ts[0m:[93m281[0m:[93m10[0m - [91merror[0m[90m TS2394: [0mThis overload signature is not compatible with its implementation signature.
+
+[7m281[0m function fn2(x: string): string;
+[7m   [0m [91m         ~~~[0m
+
+  [96msrc/more-on-functions.ts[0m:[93m283[0m:[93m10[0m
+    [7m283[0m function fn2(x: string | number) {
+    [7m   [0m [96m         ~~~[0m
+    The implementation signature is declared here.
+
+[[90m8:28:19 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m8:28:43 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:28:43 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:37:08 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:37:08 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:37:23 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:37:24 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:42:16 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:42:16 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:42:42 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:42:42 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:47:10 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:47:10 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:48:27 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:48:27 PM[0m] Found 0 errors. Watching for file changes.
+
+ected. Starting incremental compilation...
+
+[[90m8:42:42 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:47:10 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:47:10 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:48:27 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:48:27 PM[0m] Found 0 errors. Watching for file changes.
 

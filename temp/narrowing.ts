@@ -135,7 +135,7 @@ interface Triangle {
   sideLength: number;
 }
 
-type Shape = Circle | Square | Triangle;
+type Shape = Circle | Square;
 
 function handleShape(shape: Shape) {
   if (shape.kind === 'circle') {
@@ -181,4 +181,4 @@ const triangle: Triangle = {
 
 console.log(getArea2(circle));
 console.log(getArea2(square));
-console.log(getArea2(triangle));
+// console.log(getArea2(triangle));
