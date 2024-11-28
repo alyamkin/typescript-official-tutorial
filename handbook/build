@@ -1230,15 +1230,264 @@ Script started on Mon Nov 18 09:34:53 2024
 
 [[90m8:48:27 PM[0m] Found 0 errors. Watching for file changes.
 
-ected. Starting incremental compilation...
+[2J[3J[H[[90m8:59:34 PM[0m] File change detected. Starting incremental compilation...
 
-[[90m8:42:42 PM[0m] Found 0 errors. Watching for file changes.
+[[90m8:59:34 PM[0m] Found 0 errors. Watching for file changes.
 
-[2J[3J[H[[90m8:47:10 PM[0m] File change detected. Starting incremental compilation...
+[2J[3J[H[[90m8:59:41 PM[0m] File change detected. Starting incremental compilation...
 
-[[90m8:47:10 PM[0m] Found 0 errors. Watching for file changes.
+[91merror[0m[90m TS18003: [0mNo inputs were found in config file '/Users/andreylyamkin/Documents/Education/Repositories/github/alyamkin/typescript-official-tutorial/handbook/tsconfig.json'. Specified 'include' paths were '["**/*"]' and 'exclude' paths were '["/Users/andreylyamkin/Documents/Education/Repositories/github/alyamkin/typescript-official-tutorial/handbook/dist"]'.
 
-[2J[3J[H[[90m8:48:27 PM[0m] File change detected. Starting incremental compilation...
+[[90m8:59:41 PM[0m] Found 1 error. Watching for file changes.
 
-[[90m8:48:27 PM[0m] Found 0 errors. Watching for file changes.
+[2J[3J[H[[90m9:00:00 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:00:02 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:00:11 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:00:11 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:01:35 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:01:35 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:02:00 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:02:00 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:24:02 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:24:02 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:33:39 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:33:39 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m12:18:29 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/object-types.ts[0m:[93m24[0m:[93m1[0m - [91merror[0m[90m TS1127: [0mInvalid character.
+
+[7m24[0m \
+[7m  [0m [91m[0m
+
+[[90m12:18:29 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m3:43:56 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/object-types.ts[0m:[93m38[0m:[93m7[0m - [91merror[0m[90m TS2540: [0mCannot assign to 'prop' because it is a read-only property.
+
+[7m38[0m   obj.prop = 'hello';
+[7m  [0m [91m      ~~~~[0m
+
+[[90m3:43:56 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m4:02:05 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:02:05 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:02:29 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:02:29 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:06:53 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:06:53 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:23:07 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:23:07 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:25:11 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:25:11 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:28:44 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:28:45 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:54:30 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:54:31 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:54:53 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:54:53 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:59:37 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:59:37 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m5:03:37 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m5:03:37 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m5:03:51 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m5:03:51 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m5:15:57 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/object-types.ts[0m:[93m141[0m:[93m31[0m - [91merror[0m[90m TS2561: [0mObject literal may only specify known properties, but 'colour' does not exist in type 'SquareConfig'. Did you mean to write 'color'?
+
+[7m141[0m let mySquare = createSquare({ colour: 'green', width: 30 });
+[7m   [0m [91m                              ~~~~~~[0m
+
+[[90m5:15:57 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m9:29:42 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:29:42 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:33:57 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:33:57 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:36:20 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:36:20 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:54:20 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:54:20 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:04:46 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:04:46 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:16:56 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:16:56 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:17:36 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:17:36 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:37:17 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:37:17 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:47:02 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:47:02 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:50:36 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:50:36 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:53:05 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:53:05 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:55:24 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:55:24 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:59:00 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:59:00 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:49:45 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:49:46 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:56:23 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:56:23 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:59:10 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m8:59:11 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:31:51 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:31:51 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:32:16 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:32:17 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:32:34 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:32:34 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:35:39 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:35:39 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:35:45 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:35:45 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:44:16 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:44:16 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:44:24 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:44:24 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:48:57 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:48:57 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:49:17 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/object-types.ts[0m:[93m365[0m:[93m1[0m - [91merror[0m[90m TS2555: [0mExpected at least 2 arguments, but got 1.
+
+[7m365[0m readButtonInput(c);
+[7m   [0m [91m~~~~~~~~~~~~~~~[0m
+
+[[90m9:49:17 AM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m9:49:43 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:49:43 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:49:57 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:49:57 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:50:18 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:50:18 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:52:13 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:52:13 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m8:56:35 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/object-types.ts[0m:[93m369[0m:[93m8[0m - [91merror[0m[90m TS2540: [0mCannot assign to '0' because it is a read-only property.
+
+[7m369[0m   pair[0] = 'hello!';
+[7m   [0m [91m       ~[0m
+
+[[90m8:56:36 AM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m9:01:29 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/object-types.ts[0m:[93m380[0m:[93m37[0m - [91merror[0m[90m TS2345: [0mArgument of type 'number[]' is not assignable to parameter of type '[number, number]'.
+  Target requires 2 element(s) but source may have fewer.
+
+[7m380[0m const distance = distanceFromOrigin(point);
+[7m   [0m [91m                                 [2J[3J[H[[90m9:01:29 AM[0m] File change detected. Starting incremental compila[2J[3J[H[[90m9:03:20 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:03:20 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:03:50 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:03:50 AM[0m] Found 0 errors. Watching for file changes.
+
+                                  ~~~~~[0m
+
+[[90m9:01:29 AM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m9:03:20 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:03:20 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m9:03:50 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m9:03:50 AM[0m] Found 0 errors. Watching for file changes.
 
